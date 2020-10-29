@@ -38,6 +38,7 @@ Initially the plan was to do something similar for the xml file containing all t
 All the relevant tables are in the 'live' schema, so everything in the loading schema can be ignored.
 
 The movies tables sits up at the top, and below it sits both the genres_combinations and production_companies_combinations tables. These both have a 1-to-many relationship with movies as 1 movie can have multiple genres/prod companies. On both of those exists a lookup to the genres/prod company names themselves on the appropriate id name.
+
 The following ids have been preserved from the original imdb files, the rest were manually created.
 - movie_id
 - genres_id
