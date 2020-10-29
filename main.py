@@ -6,7 +6,7 @@ import filmDatabaseController
 if __name__ == '__main__':
 	#change below as necessary
 	user = 'postgres'
-	password = getpass('Input postgresql user password: ')
+	#password = getpass('Input postgresql user password: ')
 	port = '5432'
 	database = 'film_database'
 	host = 'localhost'
